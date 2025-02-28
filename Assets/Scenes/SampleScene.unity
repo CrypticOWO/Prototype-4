@@ -897,6 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 1891112488}
+  OtherButton: {fileID: 1126590227}
   VideoDisplay: {fileID: 1693492643}
   VideoPlayer: {fileID: 1594606955}
   ScoreText: {fileID: 2049868622}
@@ -949,6 +950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 1126590227}
+  OtherButton: {fileID: 1891112488}
   VideoDisplay: {fileID: 297938381}
   VideoPlayer: {fileID: 1402383697}
   ScoreText: {fileID: 2049868622}

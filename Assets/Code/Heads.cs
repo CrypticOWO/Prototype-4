@@ -6,6 +6,7 @@ using TMPro;
 public class Heads : MonoBehaviour
 {
     public Button Button;
+    public Button OtherButton;
     public RawImage VideoDisplay;
     public VideoPlayer VideoPlayer;
     public static int Score = 0;
@@ -26,6 +27,7 @@ public class Heads : MonoBehaviour
         VideoPlayer.gameObject.SetActive(true);
         VideoPlayer.Play();
         Button.interactable = false;
+        OtherButton.interactable = false;
 
         Score++;
 
@@ -37,6 +39,7 @@ public class Heads : MonoBehaviour
         VideoDisplay.gameObject.SetActive(false);
         VideoPlayer.gameObject.SetActive(false);
         Button.interactable = true;
+        OtherButton.interactable = true;
 
         ScoreText.text = "Correct Guesses:" + Score;
     }
